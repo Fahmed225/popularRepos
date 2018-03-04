@@ -1,6 +1,7 @@
 .container{
   max-width: 1200px;
   margin: 0 auto;
+  font-weight: bold;
 }
 
 .languages {
@@ -18,3 +19,34 @@ li {
   font-weight: bold;
   cursor: pointer;
 }
+
+.popular-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.popular-item {
+  width: 180px;
+  margin: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-overflow:ellipsis;
+  height: 210px;
+}
+
+.item-index {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+.item-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+
+
