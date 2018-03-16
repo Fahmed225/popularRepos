@@ -20,6 +20,15 @@ li {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: orange; 
+}
+
+.nav {
+  font-size: 20px;
+}
+
 .popular-list {
   display: flex;
   flex-direction: row;
@@ -47,6 +56,72 @@ li {
   border-radius: 50%;
 }
 
+.battle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-content: center;
+}
 
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin: 20px;
+}
+
+.home{
+  align-items: flex-start;
+}
+
+.column label {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.column #username {
+  width: 48%;
+  height: 2em;
+}
+.button {
+  width: 200px;
+  background: black;
+  color: white;
+  padding: 8px;
+  border: none;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.active {
+  font-weight:bolder;
+  color:darkorange;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%
+}
+
+.reset {
+  color:indianred;
+  cursor: pointer;
+  border:none;
+  background:none;
+}
 
