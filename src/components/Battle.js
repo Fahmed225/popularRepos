@@ -137,11 +137,9 @@ class Battle extends React.Component {
       
           {playerOneImage && playerTwoImage &&
             <Link 
-              className='button row'
+              className='button'
               to={{pathname: match.url + '/results',
-                  search: `?playerOneName=` + playerOneName + `&playerTwoName=` + playerTwoName}} >
-              Battle
-            </Link>
+                  search: `?playerOneName=` + playerOneName + `&playerTwoName=` + playerTwoName}}>Battle</Link>
           }
         </div>
       </div>
